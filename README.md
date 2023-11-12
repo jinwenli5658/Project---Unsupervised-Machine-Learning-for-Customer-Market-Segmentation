@@ -38,5 +38,11 @@ Apply unsupervised machine learning algorithm to perform bank customer segmentat
 
 
 ## Identifying and Dealing with Missing Values
-- 313 Misisng Values in 'MINIMUM_PAYMENT' <br />
+- 313 Missisng Values in 'MINIMUM_PAYMENT' <br />
 - Replace missing values in 'MINIMUM_PAYMENT' with mean of the 'MINIMUM_PAYMENT' 
+
+## Visualizing the data
+- distplot combines the matplotlib.hist function with seaborn kdeplot()
+  -- KDE Plot represents the Kernel Density Estimate
+# KDE is used for visualizing the Probability Density of a continuous variable. 
+# KDE demonstrates the probability density at different values in a continuous variable. 
