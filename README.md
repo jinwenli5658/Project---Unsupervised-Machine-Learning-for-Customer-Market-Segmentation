@@ -37,6 +37,8 @@ Apply unsupervised machine learning algorithm to perform bank customer segmentat
 (8) Apply Principal Component Analysis (PCA) technique to perform dimensionality reduction and data visualization. <br />
 
 
+
+# Takeaways
 ## Identifying and Dealing with Missing Values
 - 313 Missisng Values in 'MINIMUM_PAYMENT' <br />
 - Replace missing values in 'MINIMUM_PAYMENT' with mean of the 'MINIMUM_PAYMENT' 
