@@ -1,4 +1,4 @@
-# Project: Unsupervised Machine Learning-for Customer Market Segmentation
+# Project: Unsupervised Machine Learning for Customer Market Segmentation
 
 ## Problem
 Apply unsupervised machine learning algorithm to perform bank customer segmentation.
