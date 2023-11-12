@@ -56,7 +56,7 @@ Apply unsupervised machine learning algorithm to perform bank customer segmentat
 
 ## Combine original df to K-means label
 
-## Visualizing using Principal Component Analysis (2 Components)
+## Visualizing results using Principal Component Analysis (2 Components)
 
 ![plot](https://user-images.githubusercontent.com/81390746/282326280-583d093c-3691-4591-ba18-8b9d04c49dfa.png)
 
