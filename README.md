@@ -35,3 +35,8 @@ Apply unsupervised machine learning algorithm to perform bank customer segmentat
 (6) Use Scikit-Learn library to find the optimal number of clusters using elbow method <br />
 (7) Apply k-means using Scikit-Learn to perform customer segmentation <br />
 (8) Apply Principal Component Analysis (PCA) technique to perform dimensionality reduction and data visualization. <br />
+
+
+## Identifying and Dealing with Missing Values
+- 313 Misisng Values in 'MINIMUM_PAYMENT' <br />
+- Replace missing values in 'MINIMUM_PAYMENT' with mean of the 'MINIMUM_PAYMENT' 
