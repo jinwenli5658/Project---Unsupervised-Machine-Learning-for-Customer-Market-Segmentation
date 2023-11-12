@@ -4,6 +4,13 @@
 Apply unsupervised machine learning algorithm to perform bank customer segmentation.
 
 ## Data Columns
+
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+
+
 CUSTID: Identification of Credit Card holder <br />
 BALANCE: Balance amount left in customer's account to make purchases <br />
 BALANCE_FREQUENCY: How frequently the Balance is updated, score between 0 and 1 (1 = frequently updated, 0 = not frequently updated) <br />
