@@ -56,7 +56,7 @@ Apply unsupervised machine learning algorithm to perform bank customer segmentat
 
 ## Visualizing using Principal Component Analysis (2 Components)
 
-![Alt text](relative%20path/to/img.jpg?raw=true "Title")
+![plot](C:\Users\jinwen\Desktop\Coursera\project-Unsupervised-Machine-Learning-for-Customer-Market-Segmentation\K means Output.png)
 
 
 
