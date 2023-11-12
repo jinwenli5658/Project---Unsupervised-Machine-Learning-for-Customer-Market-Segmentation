@@ -46,8 +46,7 @@ Apply unsupervised machine learning algorithm to perform bank customer segmentat
   * KDE Plot represents the Kernel Density Estimate. 
   * KDE is used for visualizing the Probability Density of a continuous variable.
   * KDE demonstrates the probability density at different values in a continuous variable.
-
-- Below code will show histogram and density distribution of all columns in the dataset
+  * Below code will show histogram and density distribution of all columns in the dataset
  ```
 plt.figure(figsize=(10,50))
 for i in range(len(creditcard_df.columns) - 1):
@@ -56,4 +55,10 @@ for i in range(len(creditcard_df.columns) - 1):
     plt.title(creditcard_df.columns[i])
 
 plt.tight_layout()
+```
+- Below code will show correlation of each column and heatmap
+ ```
+correlations = creditcard_df.corr()
+f, ax = plt.subplots(figsize=(20,10))
+sns.heatmap(correlations, annot=True)
 ```
