@@ -4,31 +4,27 @@
 Apply unsupervised machine learning algorithm to perform bank customer segmentation.
 
 ## Data Columns
-
-| Command | Description |
+| Column | Description |
 | --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
+| `CUSTID` | Identification of Credit Card holder |
+| `BALANCE` | Balance amount left in customer's account to make purchases |
+| `BALANCE_FREQUENCY` | How frequently the Balance is updated, score between 0 and 1 (1 = frequently updated, 0 = not frequently updated) |
+| `PURCHASES` | Amount of purchases made from account |
+| `ONEOFFPURCHASES` | Maximum purchase amount done in one-go |
+| `INSTALLMENTS_PURCHASES` | Amount of purchase done in installment |
+| `CASH_ADVANCE` | Cash in advance given by the user |
+| `PURCHASES_FREQUENCY` | How frequently the Purchases are being made, score between 0 and 1 (1 = frequently purchased, 0 = not frequently purchased) |
+| `ONEOFF_PURCHASES_FREQUENCY` | How frequently Purchases are happening in one-go (1 = frequently purchased, 0 = not frequently purchased) |
+| `PURCHASES_INSTALLMENTS_FREQUENCY` | How frequently purchases in installments are being done (1 = frequently done, 0 = not frequently done) |
+| `CASH_ADVANCE_FREQUENCY` | How frequently the cash in advance being paid |
+| `CASH_ADVANCE_TRX` | Number of Transactions made with "Cash in Advance" |
+| `PURCHASES_TRX` | Number of purchase transactions made |
+| `CREDIT_LIMIT` | Limit of Credit Card for user |
+| `PAYMENTS` | Amount of Payment done by user |
+| `MINIMUM_PAYMENTS` | Minimum amount of payments made by user |
+| `PRC_FULL_PAYMENT` | Percent of full payment paid by user |
+| `TENURE` | Tenure of credit card service for user |
 
-
-CUSTID: Identification of Credit Card holder <br />
-BALANCE: Balance amount left in customer's account to make purchases <br />
-BALANCE_FREQUENCY: How frequently the Balance is updated, score between 0 and 1 (1 = frequently updated, 0 = not frequently updated) <br />
-PURCHASES: Amount of purchases made from account <br />
-ONEOFFPURCHASES: Maximum purchase amount done in one-go <br />
-INSTALLMENTS_PURCHASES: Amount of purchase done in installment <br />
-CASH_ADVANCE: Cash in advance given by the user <br />
-PURCHASES_FREQUENCY: How frequently the Purchases are being made, score between 0 and 1 (1 = frequently purchased, 0 = not frequently purchased) <br />
-ONEOFF_PURCHASES_FREQUENCY: How frequently Purchases are happening in one-go (1 = frequently purchased, 0 = not frequently purchased) <br />
-PURCHASES_INSTALLMENTS_FREQUENCY: How frequently purchases in installments are being done (1 = frequently done, 0 = not frequently done) <br />
-CASH_ADVANCE_FREQUENCY: How frequently the cash in advance being paid <br />
-CASH_ADVANCE_TRX: Number of Transactions made with "Cash in Advance" <br />
-PURCHASES_TRX: Number of purchase transactions made <br />
-CREDIT_LIMIT: Limit of Credit Card for user <br />
-PAYMENTS: Amount of Payment done by user <br />
-MINIMUM_PAYMENTS: Minimum amount of payments made by user  <br />
-PRC_FULL_PAYMENT: Percent of full payment paid by user <br />
-TENURE: Tenure of credit card service for user <br />
 
 ## Tasks:
 (1) Understand the problem statement and business case <br />
