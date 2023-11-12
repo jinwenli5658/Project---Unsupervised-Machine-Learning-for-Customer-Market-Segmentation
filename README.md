@@ -47,3 +47,17 @@ Apply unsupervised machine learning algorithm to perform bank customer segmentat
   * KDE is used for visualizing the Probability Density of a continuous variable.
   * KDE demonstrates the probability density at different values in a continuous variable.
 
+## Scaling the data
+
+## Model used
+- K-Means and Elbow method to determine K (7)
+
+## Combine original df to K-means label
+
+## Visualizing using Principal Component Analysis (2 Components)
+
+![Alt text](relative%20path/to/img.jpg?raw=true "Title")
+
+
+
+
