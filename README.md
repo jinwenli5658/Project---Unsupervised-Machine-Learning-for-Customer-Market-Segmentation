@@ -6,7 +6,7 @@ Apply unsupervised machine learning algorithm to perform bank customer segmentat
 ## Data Columns
 | Column | Description |
 | --- | --- |
-| `CUSTID` | Identification of Credit Card holder |
+| CUSTID | Identification of Credit Card holder |
 | `BALANCE` | Balance amount left in customer's account to make purchases |
 | `BALANCE_FREQUENCY` | How frequently the Balance is updated, score between 0 and 1 (1 = frequently updated, 0 = not frequently updated) |
 | `PURCHASES` | Amount of purchases made from account |
