@@ -43,6 +43,6 @@ Apply unsupervised machine learning algorithm to perform bank customer segmentat
 
 ## Visualizing the data
 - distplot combines the matplotlib.hist function with seaborn kdeplot() <br />
-  -- KDE Plot represents the Kernel Density Estimate
+  * KDE Plot represents the Kernel Density Estimate
 # KDE is used for visualizing the Probability Density of a continuous variable. 
 # KDE demonstrates the probability density at different values in a continuous variable. 
